@@ -1,0 +1,41 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  box-sizing: border-box;
+  height: 100vh; 
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease; 
+}
+
+.very-hot {
+  background-image: url("https://c8.alamy.com/comp/GG1TYW/cat-on-a-very-hot-day-GG1TYW.jpg");
+}
+
+.normal {
+  background-image: url("https://images.hdqwalls.com/wallpapers/clouds-summer-weather-5k-1b.jpg");
+}
+
+.cold {
+  background-image: url("https://cathe.com/wp-content/uploads/2020/02/shutterstock_743819602.jpg");
+}
+
+.temp {
+  padding: 5rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  background-color: black;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 2rem;
+  padding: 2rem;
+}
